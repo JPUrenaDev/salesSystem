@@ -83,12 +83,8 @@ let results = [req.body.Nombre,
           
     console.log(err);
             return res.status(200).json(results)
-        
         }
-       
     )
-       // results contains rows returned by server
-      // fields contains extra meta data about results, if available
 }
 
 
