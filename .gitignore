@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/backend/connection/db.js    
+db.js    
 /.pnp
 .pnp.js
 
