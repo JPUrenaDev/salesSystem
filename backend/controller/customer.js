@@ -63,6 +63,7 @@ const getOneCustomerByID= (req,res,next)=>{
 
 //**********************UPDATE ONE CUSTOMER BY ID********************//
 const updateOneCustomerByID= (req,res,next)=>{
+    console.log(req.body);
     let sql =  `UPDATE Customer SET FIRST_NAME = ?,
     LAST_NAME = ?, 
     DATE_OF_BIRTH = ?, 
@@ -79,7 +80,7 @@ let results = [req.body.Nombre,
 
     connection.query(sql,results,
         function(err, results) {
-            console.log(results);
+            
           
     console.log(err);
             return res.status(200).json(results)
