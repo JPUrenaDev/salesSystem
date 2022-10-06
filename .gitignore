@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/backend/connection
 /.pnp
 .pnp.js
 
@@ -24,3 +25,5 @@ yarn-error.log*
 
 
 .env
+
+
