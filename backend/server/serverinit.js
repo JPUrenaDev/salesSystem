@@ -1,4 +1,4 @@
-const app = require('../router/customer');
+const app = require('../router/category');
 
 app.listen(3001,()=>{
     console.log('prueba')

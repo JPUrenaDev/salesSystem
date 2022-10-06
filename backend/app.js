@@ -10,4 +10,3 @@ app.use(bodyParser.json())
 
 module.exports = {app}; 
 
-console.log("prueba");
