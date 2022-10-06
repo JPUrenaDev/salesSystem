@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
     database: 'salesSystem'
   });
 
-console.log("pruebsssa");
+console.log("pruebsssassss");
 
   module.exports = connection;
 
