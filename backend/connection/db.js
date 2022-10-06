@@ -9,9 +9,6 @@ const connection = mysql.createConnection({
     database: 'salesSystem'
   });
 
-console.log("pruebsssassss");
-console.log("pruebsssassss");
-console.log("pruebsssassss");
 
   module.exports = connection;
 
