@@ -57,8 +57,7 @@ const getOneCustomerByID= (req,res,next)=>{
     )
        // results contains rows returned by server
       // fields contains extra meta data about results, if available
-        
-
+    
     }
 
 //**********************UPDATE ONE CUSTOMER BY ID********************//
@@ -87,10 +86,6 @@ let results = [req.body.Nombre,
         }
     )
 }
-
-
-
-
 //**********************DELETE ONE CUSTOMER BY ID********************//
 const deleteOneCustomerByID= (req,res,next)=>{
     console.log(req.params.id);
